@@ -1,10 +1,10 @@
 import React from "react";
 import { Image,View,StyleSheet } from "react-native";
 
-export default function Logo(){
+export default function Home(){
 return(
     <View>
-    <Image style={styles.logo} source={require('./assets/lucachat.png')}  />
+    <Image style={styles.logo} source={require('./assets/home.png')}  />
     </View>
 );
 }
@@ -12,8 +12,8 @@ return(
 const styles = StyleSheet.create({
     logo:{
         resizeMode:'cover' ,
-        width: 350,
-        height: 150,
+        width: 100,
+        height: 100,
         
      }
 });
